@@ -34,14 +34,14 @@ export default function Router() {
         <div>
             <BrowserRouter>
                 <nav className="navbar px-5 py-3 bg-dark navbar-dark">
-                <NavLink activeClassName="activenavbar" className="navbar-brand greenhover" exact to="/Ejercicio6.2/">Ejercicio 1</NavLink>
+                <NavLink activeClassName="activenavbar" className="navbar-brand greenhover" exact to="/Ejercicio6.2">Ejercicio 1</NavLink>
                 <NavLink activeClassName="activenavbar" className="navbar-brand greenhover" to="/Page2">Ejercicio 2</NavLink>
                 <NavLink activeClassName="activenavbar" className="navbar-brand greenhover" to="/Page3">Ejercicio 3</NavLink>
                 <NavLink activeClassName="activenavbar" className="navbar-brand greenhover" to="/Page4">Ejercicio 4</NavLink>
                 </nav>
                 <GlobalContext.Provider value={{contacts, setContacts, setTodos, todos}}>
                 <Switch>
-                    <Route exact path="/Ejercicio6.2/" component={Page1} />
+                    <Route exact path="/Ejercicio6.2" component={Page1} />
                     <Route path="/Page2" component={Page2} />
                     <Route path="/Page3" component={Page3} />
                     <Route path="/Page4" component={Page4} />
