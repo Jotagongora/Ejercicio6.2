@@ -1,0 +1,8 @@
+.activenavbar {
+    color: rgb(136, 226, 136) !important;
+    font-weight: bold;
+}
+
+.greenhover:hover {
+    color: rgb(136, 226, 136)  !important;
+}

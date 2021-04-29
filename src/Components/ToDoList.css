@@ -1,0 +1,8 @@
+.crossOut {
+    font-style: italic;
+    background-color: rgb(202, 197, 197);
+  }
+
+.crossOut span {
+  text-decoration: line-through;
+}
